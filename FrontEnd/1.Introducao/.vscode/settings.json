@@ -1,0 +1,59 @@
+{
+"workbench.iconTheme": "material-icon-theme",
+"editor.fontFamily": "JetBrains Mono",
+"editor.fontSize": 16,
+"editor.lineHeight": 1.6,
+"editor.rulers": [80, 140],
+"workbench.startupEditor": "newUntitledFile",
+"editor.renderLineHighlight": "gutter",
+"editor.fontLigatures": true,
+"workbench.editor.labelFormat": "short",
+"explorer.compactFolders": false,
+"breadcrumbs.enabled": false,
+"editor.minimap.enabled": false,
+"symbols.hidesExplorerArrows": false,
+"workbench.colorTheme": "Omni PRO",
+"terminal.integrated.env.linux": {},
+"terminal.integrated.env.osx": {},
+"console-ninja.featureSet": "Community",
+"prettier.printWidth": 150,
+"prettier.trailingComma": "es5",
+"prettier.tabWidth": 4,
+"prettier.semi": true,
+"prettier.singleQuote": true,
+"git.openRepositoryInParentFolders": "never",
+"[django-html]": {
+"editor.defaultFormatter": "junstyle.vscode-django-support"
+},
+"[jsonc]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[javascriptreact]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[dart]": {
+"editor.formatOnSave": true,
+"editor.formatOnType": true,
+"editor.selectionHighlight": false,
+"editor.suggestSelection": "first",
+"editor.tabCompletion": "onlySnippets",
+"editor.wordBasedSuggestions": "off"
+},
+"[javascript]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[html]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[typescript]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[typescriptreact]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[css]": {
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"stardew-pets.background": "Snow",
+"stardew-pets.scale": "Medium"
+}
