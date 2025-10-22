@@ -55,3 +55,13 @@ Na imagem, temos um exemplo de um formulário para realizar um cadastro, em que 
 O *formulário* pode ser utilizado para que o usuário **entre em contato com a empresa**, em uma **enquete**, em um **cadastro de login**, na **recuperação de uma senha**, na **alteração de dados**, entre outros.
 
 Você pode iniciar com uma estrutura mais simplificada, apenas abrindo a tag `<form>`. **A tag `<label>` é utilizada para representar uma legenda**. O `for` é um atributo da tag cujo objetivo é permitir que, quando o *usuário clique na palavra nome*, *selecione o input* (caixa de texto), pois o ==valor do id é igual== ao valor do `for`. **Caso o id seja diferente do valor do `for` ou vice-versa, quando o usuário clicar no nome, não selecionará o input**. ==O input é o campo de entrada do usuário.==
+
+## Imagem
+A maneira mais comum de inserir imagens é utilizando as tags `figure` e `img`.
+
+A tag `figure`, além de **agrupar imagens**, pode **adicionar ilustrações**, **diagramas** e **listagens**. A tag `figcaption` define uma **legenda** para a imagem.
+
+A tag `img` possui o atributo `src` (source), que é a **fonte** ou o **caminho** – local ou online – da imagem. O atributo `alt` é uma breve **descrição** da imagem quando ela não é mostrada no navegador, mas interpretada pelo browser.
+
+> O tamanho da imagem pode ser definido pelos atributos `width` (largura) e `height` (altura), usando **medidas fixas em pixels** ou em **porcentagem**. Então, se o tamanho da imagem for definido em px (pixels), o **tamanho da imagem ficará fixo** e a imagem terá barras de rolagem, caso seja acessada em dispositivos com telas menores. Usando a porcentagem, o **tamanho da imagem se adapta** ao tamanho da tela do dispositivo, mantendo a proporção. ==Por ser mais responsiva, a porcentagem é a medida mais utilizada.==
+
