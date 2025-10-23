@@ -65,3 +65,35 @@ A tag `img` possui o atributo `src` (source), que é a **fonte** ou o **caminho*
 
 > O tamanho da imagem pode ser definido pelos atributos `width` (largura) e `height` (altura), usando **medidas fixas em pixels** ou em **porcentagem**. Então, se o tamanho da imagem for definido em px (pixels), o **tamanho da imagem ficará fixo** e a imagem terá barras de rolagem, caso seja acessada em dispositivos com telas menores. Usando a porcentagem, o **tamanho da imagem se adapta** ao tamanho da tela do dispositivo, mantendo a proporção. ==Por ser mais responsiva, a porcentagem é a medida mais utilizada.==
 
+## Áudio
+As tags de `<áudio>` e `<vídeo>` do HTML5 foram criadas para acabar com a dependência de plugins de reprodução. Com elas, podemos inserir e configurar atributos para essas tags do mesmo modo que fazemos com a tag `img`. Analise a seguir um exemplo de código.
+
+```html
+<audio>
+	<source src="audio.mp3" type="audio/mpeg">
+</audio>
+```
+> Dica
+> Há muitas **bibliotecas de áudio** e **efeitos sonoros gratuitas**, pesquise!
+
+### Atributos da tag
+Conheça os atributos usados com a tag `<audio>`
+- **Controls**: permite ao usuário controlar a reprodução do áudio, podendo iniciar, pausar e controlar o volume.
+- **Autoplay**: o áudio irá iniciar automaticamente assim que a página for carregada. Pode não funcionar em alguns navegadores.
+- **Muted**: o áudio será silenciado.
+- **Played**: atributo que indica o tempo em que o áudio foi reproduzido.
+
+O atributo src da tag `<source>` chama o endereço do áudio, que pode ser local (como no exemplo dado) ou uma URL
+
+## Vídeo
+Para adicionar um arquivo de vídeo em uma página HTML, utilize a tag `<video>` para incorporar o código.
+
+Além da tag `<video>`, é necessário adicionar o atributo width (largura), height (altura) e controls. Assim como a tag `<audio>`, o atributo controls permite ao usuário controlar a reprodução do vídeo.
+
+Dentro da tag `<video>` está aninhada a tag `source`, que determina a *fonte do vídeo*, que pode ser um **caminho local** ou uma **URL**. Veja um exemplo a seguir.
+
+```html
+<video width="320" height="240" controls>
+	<source src="video.mp4">
+</video>
+```

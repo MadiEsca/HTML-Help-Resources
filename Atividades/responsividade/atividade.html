@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Atividades/responsividade/style/style.css">
+    <!-- Configurando o CSS quando a tela do nosso usuário atingir a condição estipulada dentro de `media` -->
+    <link rel="stylesheet" href="/Atividades/responsividade/style/@media.css" media="screen and (max-width : 600px)">
+    <!-- Configurando o CSS quando a tela estiver sendo impressa | media="print" -->
+    <!-- <link rel="stylesheet" href="/Atividades/responsividade/style/@media.css" media="print"> -->
+    <title>MoX</title>
+</head>
+<body>
+    <header>
+        <figure id="logo">
+            <img src="../responsividade/img/wallpaper-focus.jpg" alt="Logo de um homem com o fundo focus">
+        </figure>
+
+        <nav id="menu-mobile">
+            <div>
+                <a href="#" class="botao" onclick="apertar()">
+                    <img src="../responsividade/img/image.png" alt="" width="25px">
+                </a>
+            </div>
+            <!-- <a href="#">Home</a>
+            <a href="#">Contato</a>
+            <a href="#">Quem somos</a>
+            <a href="#">Filiais</a>
+            <a href="#">Serviços</a> -->
+        </nav> 
+
+        <nav id="menu-pc">
+            <a href="#">Home</a>
+            <a href="#">Contato</a>
+            <a href="#" style="color:darkblue">Quem somos</a>
+            <a href="#">Filiais</a>
+            <a href="#">Serviços</a>
+        </nav>
+    </header>
+    <main id="container">
+        <article>
+            <section>
+                <h1>Trabalhando com responsividade</h1>
+                <p id="mensagem">lorem</p>
+            </section>
+        </article>
+    </main>
+</body>
+<script>
+    function apertar() {
+        alert("Você clicou nesse botão")
+    }
+</script>
+</html>

@@ -1,0 +1,24 @@
+/* Dentro desse arquivo iremos realizar a configuração de como nosso
+código CSS irá se comportar quando a tela alcançar determinado tamanho,
+definido dentro da tag `link` do nosso HTML 
+*/
+
+/* Configuração de quando a tela ficar for menor que 600px */
+
+body{
+    background-color: red;
+}
+
+#menu-mobile{
+    display: flex;
+    margin: 0px 25px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.botao:hover{
+    scale: 1.2;
+}
+#menu-pc{
+    display: none;
+}
